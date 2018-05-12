@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="wxbup" Version="10.0.0" InternalType="GUI">
+  <VirtualDirectory Name="h">
+    <File Name="wxBupPreProcDefsh.h"/>
+    <File Name="wxOsVersionh.h"/>
+    <File Name="wxBupZipListh.h"/>
+    <File Name="wxBupWorkTraverserh.h"/>
+    <File Name="wxBupWorkerh.h"/>
+    <File Name="wxBupWizTreebookh.h"/>
+    <File Name="wxBupWizSrcDnDh.h"/>
+    <File Name="wxBupWizSendEmailh.h"/>
+    <File Name="wxBupWizEmailMessageIdh.h"/>
+    <File Name="wxBupTestRestoreThreadh.h"/>
+    <File Name="wxBupRestoreDialogh.h"/>
+    <File Name="wxBupResourceh.h"/>
+    <File Name="wxBupOptionsh.h"/>
+    <File Name="wxBupJobConfigh.h"/>
+    <File Name="wxBuph.h"/>
+    <File Name="wxBupFrameh.h"/>
+    <File Name="wxBupExclusionsh.h"/>
+    <File Name="wxBupDebugRprth.h"/>
+    <File Name="wxBupCurlh.h"/>
+    <File Name="wxBupConfh.h"/>
+    <File Name="wxBupCmdlineh.h"/>
+    <File Name="wxBupCheckUpdateDialogh.h"/>
+    <File Name="wxBupBaseFrame.h"/>
+    <File Name="wxBupAppDndh.h"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="wxOsVersion.cpp"/>
+    <File Name="wxBupZipList.cpp"/>
+    <File Name="wxBupWorkTraverser.cpp"/>
+    <File Name="wxBupWorkerZip.cpp"/>
+    <File Name="wxBupWorkerEvents.cpp"/>
+    <File Name="wxBupWorkerEventLog.cpp"/>
+    <File Name="wxBupWorkerCountFiles.cpp"/>
+    <File Name="wxBupWorker.cpp"/>
+    <File Name="wxBupWizTreebook.cpp"/>
+    <File Name="wxBupWizSrcDnD.cpp"/>
+    <File Name="wxBupWizSendEmail.cpp"/>
+    <File Name="wxBupWizEmailMessageId.cpp"/>
+    <File Name="wxBupWizEmailMessage.cpp"/>
+    <File Name="wxBupUtils.cpp"/>
+    <File Name="wxBupTestRestoreThread.cpp"/>
+    <File Name="wxBupTestRestoreOneBag.cpp"/>
+    <File Name="wxBupTestRestoreCleanup.cpp"/>
+    <File Name="wxBupSummary.cpp"/>
+    <File Name="wxBupSplit.cpp"/>
+    <File Name="wxBupSound.cpp"/>
+    <File Name="wxBupSendEmail.cpp"/>
+    <File Name="wxBupSaveRenameJobs.cpp"/>
+    <File Name="wxBupRunWizard.cpp"/>
+    <File Name="wxBupResultsGrid.cpp"/>
+    <File Name="wxBupRestoreTest.cpp"/>
+    <File Name="wxBupRestoreJob.cpp"/>
+    <File Name="wxBupRestoreEvent.cpp"/>
+    <File Name="wxBupRestoreDialog.cpp"/>
+    <File Name="wxBupRestore1File.cpp"/>
+    <File Name="wxBupProcessList.cpp"/>
+    <File Name="wxBupOptions.cpp"/>
+    <File Name="wxBupOptionLog.cpp"/>
+    <File Name="wxBupOpenFile.cpp"/>
+    <File Name="wxBupOnUpdateUI.cpp"/>
+    <File Name="wxBupOnMRU.cpp"/>
+    <File Name="wxBupMoveFile.cpp"/>
+    <File Name="wxBupLogFile.cpp"/>
+    <File Name="wxBupJobListContextMenu.cpp"/>
+    <File Name="wxBupJobList.cpp"/>
+    <File Name="wxBupJobConfig.cpp"/>
+    <File Name="wxBupHelp.cpp"/>
+    <File Name="wxBupGetMediaInfo.cpp"/>
+    <File Name="wxBupFrameUtils.cpp"/>
+    <File Name="wxBupFrameTimer.cpp"/>
+    <File Name="wxBupFrame.cpp"/>
+    <File Name="wxBupFileLog.cpp"/>
+    <File Name="wxBupExclusions.cpp"/>
+    <File Name="wxBupEmailCompose.cpp"/>
+    <File Name="wxBupEditJobFile.cpp"/>
+    <File Name="wxBupDriveInfo.cpp"/>
+    <File Name="wxBupDestPathValidator.cpp"/>
+    <File Name="wxBupDeleteJobFile.cpp"/>
+    <File Name="wxBupDebugRprt.cpp"/>
+    <File Name="wxBupCurl.cpp"/>
+    <File Name="wxBupCopyFile.cpp"/>
+    <File Name="wxBupContentGrid.cpp"/>
+    <File Name="wxBupConfig.cpp"/>
+    <File Name="wxBupCompareZippedFile.cpp"/>
+    <File Name="wxBupCompare2Files.cpp"/>
+    <File Name="wxBupColSaveRestore.cpp"/>
+    <File Name="wxBupCleanoutDestDir.cpp"/>
+    <File Name="wxBupCheckUpdateDialog.cpp"/>
+    <File Name="wxBupCheck4Update.cpp"/>
+    <File Name="wxBupBaseFrame_bitmaps.cpp"/>
+    <File Name="wxBupBaseFrame.cpp"/>
+    <File Name="wxBupAppDnd.cpp"/>
+    <File Name="wxBupAbout.cpp"/>
+    <File Name="wxBup.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall;$(shell /home/arnold/public/wxWidgets-3.1.0/debStat/wx-config --cxxflags --unicode=yes  )" C_Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes  )" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <Preprocessor Value="wxUSE_UNICODE"/>
+        <Preprocessor Value="wxUNICODE"/>
+      </Compiler>
+      <Linker Options="$(shell /home/arnold/public/wxWidgets-3.1.0/debStat/wx-config   --libs --unicode=yes)" Required="yes"/>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="yes" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" C_Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="-s;$(shell wx-config --debug=no --libs --unicode=yes)" Required="yes"/>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

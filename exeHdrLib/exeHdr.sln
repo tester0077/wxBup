@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exeHdr", "exeHdr.vcxproj", "{429348B7-7E25-4294-8A21-61D2BEA9AF56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UT++", "UT++\UT++.vcxproj", "{FD613E21-6863-4146-9C2C-FF78B09BFD07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56} = {429348B7-7E25-4294-8A21-61D2BEA9AF56}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebUniStat|Win32 = DebUniStat|Win32
+		DebUniStat|x64 = DebUniStat|x64
+		RelUniStat|Win32 = RelUniStat|Win32
+		RelUniStat|x64 = RelUniStat|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.DebUniStat|Win32.ActiveCfg = DebUniStat|Win32
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.DebUniStat|Win32.Build.0 = DebUniStat|Win32
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.DebUniStat|x64.ActiveCfg = DebUniStat|x64
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.DebUniStat|x64.Build.0 = DebUniStat|x64
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.RelUniStat|Win32.ActiveCfg = RelUniStat|Win32
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.RelUniStat|Win32.Build.0 = RelUniStat|Win32
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.RelUniStat|x64.ActiveCfg = RelUniStat|x64
+		{429348B7-7E25-4294-8A21-61D2BEA9AF56}.RelUniStat|x64.Build.0 = RelUniStat|x64
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.DebUniStat|Win32.ActiveCfg = DebUniStat|Win32
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.DebUniStat|Win32.Build.0 = DebUniStat|Win32
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.DebUniStat|x64.ActiveCfg = DebUniStat|x64
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.DebUniStat|x64.Build.0 = DebUniStat|x64
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.RelUniStat|Win32.ActiveCfg = RelUniStat|Win32
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.RelUniStat|Win32.Build.0 = RelUniStat|Win32
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.RelUniStat|x64.ActiveCfg = RelUniStat|x64
+		{FD613E21-6863-4146-9C2C-FF78B09BFD07}.RelUniStat|x64.Build.0 = RelUniStat|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+
+Installing wxBup
+
+Once you have downloaded the installer, simply run it.
+
+It will install wxBup and any files needed to run it in the
+directory of your choice. It will also produce a desktop
+icon for your convenience.
+
+Uninstalling wxBup
+
+In case you want to uninstall wxBup from your machine, simply run the 
+uninstall entry from the start menu. All files, except the .INI and 
+log file, if any, will be removed. If you decided to not use the 
+program any longer, you can remove the whole directory, although in that 
+case you would have to reconfigure the program again, if you decide to 
+use it again later.
+
+   
+Running the Program:
+
+This information is also provided in the help system.

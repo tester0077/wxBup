@@ -1,0 +1,4 @@
+Code to obtain the application version information from the 
+executable at run-time to display as part of 'About' dialog
+or wherever needed.
+Currently set to compile with MSVC 2015 

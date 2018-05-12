@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc">
+  <!-- Handler Generation is ON -->
+  <object class="wxBitmap" name="CloseFile">rc\CloseFile.png</object>
+  <object class="wxBitmap" name="Folder">rc\Folder.png</object>
+  <object class="wxBitmap" name="Help">rc\Help.png</object>
+  <object class="wxBitmap" name="NewDocument">rc\NewDocument.png</object>
+  <object class="wxBitmap" name="Stop">rc\Stop.bmp</object>
+  <object class="wxBitmap" name="ark-in">rc\ark-in.png</object>
+  <object class="wxBitmap" name="ark-out">rc\ark-out.png</object>
+  <object class="wxBitmap" name="demo">rc\demo.png</object>
+  <object class="wxBitmap" name="modify">rc\modify.bmp</object>
+</resource>
